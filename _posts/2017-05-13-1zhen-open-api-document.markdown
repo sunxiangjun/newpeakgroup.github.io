@@ -56,8 +56,10 @@ sign = md5(认证校验字符串, ts, partner_key)
 
 ### 问诊页面
 
-URL:/cooperation-h5/login.html
+URL:`m/cooperation-h5/login.html`
+
 请求方式: HTTP跳转
+
 请求参数:
 
 | 名称 | 说明 | 类型 | 长度 | 必要 | 参与Sign计算 |备注|

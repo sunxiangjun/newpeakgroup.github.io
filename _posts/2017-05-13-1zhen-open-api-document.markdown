@@ -64,9 +64,10 @@ URL:/cooperation-h5/login.html
 | :-- | :-- | :-- | -- | -- | -- | :-- |
 |partner|合作方标识|String|32|是|／|==需要申请==|
 |user_id|用户名|String|32|是|是|用户唯一标识,合作方定义|
-|redirect_url|登入后调整页面|String|64|是|是|根据业务不同重定向页面不同|
+|redirect_url|登入后跳转页面|String|64|是|是|根据业务不同重定向页面不同|
 |ts|签名时间戳|Long|64|是|／|当前UNIX TIMESTAMP签名时间戳 (如:137322417)|
 |sign|签名|String|32|是|／|==生成方法==|
+|mobile|手机号|String|11|是|／|用户手机号|
 
 ### 查询页面
 
